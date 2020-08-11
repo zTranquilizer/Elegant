@@ -73,5 +73,10 @@ if (animItems.length > 0) {
 		animOnScroll();
 	}, 300);
 }
-
+window.addEventListener('load', function (params) {
+	document.querySelector(".wrapper").classList.add('loaded');
+})
+// $(window).on("load", function () {
+// 	$(".wrapper").addClass("loaded");
+// });
 
